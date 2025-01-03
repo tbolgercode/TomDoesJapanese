@@ -1,0 +1,19 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "count": "number",
+    "inProgress": "checkbox",
+    "progress": "number",
+    "progress2": "number",
+    "progress3": "number",
+    "episodeCount": "number",
+    "difficulty": "number",
+    "rating": "number",
+    "type": "number",
+    "studyDifficulty": "number",
+    "studyJournalDate": "date",
+    "cssClass": "text"
+  }
+}

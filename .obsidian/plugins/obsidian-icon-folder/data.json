@@ -1,0 +1,97 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiFileImage",
+      "LiHammer",
+      "LiCalendar",
+      "LiDrama",
+      "LiGraduationCap"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "Content": {
+    "iconName": "LiTableOfContents",
+    "iconColor": "#ff0000"
+  },
+  "Journals": {
+    "iconName": "LiBookOpen",
+    "iconColor": "#00e6a1"
+  },
+  "js": {
+    "iconName": "LiFolderCode",
+    "iconColor": "#fff047"
+  },
+  "js/scripts": {
+    "iconName": "LiCode",
+    "iconColor": "#fbff00"
+  },
+  "Templates": "LiCodeSquare",
+  "Content/Readables": {
+    "iconName": "LiGlasses",
+    "iconColor": "#ffffff"
+  },
+  "Content/Watchables": {
+    "iconName": "LiTv",
+    "iconColor": "#ffa34d"
+  },
+  "Content/Readables/Light Novels": {
+    "iconName": "LiBook",
+    "iconColor": "#028000"
+  },
+  "Content/Readables/Manga": {
+    "iconName": "LiBookImage",
+    "iconColor": "#0099ad"
+  },
+  "Content/Watchables/Movies": {
+    "iconName": "LiFilm",
+    "iconColor": "#e00000"
+  },
+  "Content/Watchables/Anime": {
+    "iconName": "LiImage",
+    "iconColor": "#b900d1"
+  },
+  "Journals/2025": {
+    "iconName": "LiCalendar",
+    "iconColor": "#fe86d8"
+  },
+  "Study": {
+    "iconName": "LiGraduationCap",
+    "iconColor": "#bb1bb6"
+  },
+  "Content/Watchables/Drama": {
+    "iconName": "LiDrama",
+    "iconColor": "#1cceb1"
+  },
+  "Resources": {
+    "iconName": "LiHammer",
+    "iconColor": "#855338"
+  },
+  "Resources/Images": {
+    "iconName": "LiFileImage",
+    "iconColor": "#3f0061"
+  }
+}

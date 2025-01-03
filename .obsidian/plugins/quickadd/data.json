@@ -1,0 +1,1084 @@
+{
+  "choices": [
+    {
+      "id": "ff4bbcf8-1da8-4c36-9962-2a761818d887",
+      "name": "Create New Anime",
+      "type": "Macro",
+      "command": true,
+      "macroId": "45c6cf48-fc6b-4c6c-ae99-f92585d814af"
+    },
+    {
+      "id": "a99502cd-24e3-4228-8cc6-4f026984ccf3",
+      "name": "Create New Seasonal Anime",
+      "type": "Macro",
+      "command": true,
+      "macroId": "6a79ac6f-678f-4748-803c-f55ac3a7b6e8"
+    },
+    {
+      "id": "1819c376-d643-407e-aa3f-0cc3f1a6a710",
+      "name": "Create New Manga",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b36cf064-cf45-49a0-b78b-7518d3fd826f"
+    },
+    {
+      "id": "3f982512-9d88-4325-b15f-bdae1d30e75b",
+      "name": "Create New Light Novel",
+      "type": "Macro",
+      "command": true,
+      "macroId": "774aefed-7266-445d-b1cc-dc55c15b5973"
+    },
+    {
+      "id": "55d327b0-3d3f-4fdf-8643-13da3aa03833",
+      "name": "Create New Drama",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d552b3c7-7188-42d2-b10b-1d99f5abcc68"
+    },
+    {
+      "id": "3b908a4c-d622-4ec8-ab4d-031c6823816d",
+      "name": "Create New Seasonal Drama",
+      "type": "Macro",
+      "command": true,
+      "macroId": "85c3ce86-ee6d-48b7-b95c-20ff3e97b74f"
+    },
+    {
+      "id": "a7e1f598-e484-4288-b68c-ecf4639c0531",
+      "name": "Create New Movie",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a955d5dc-9ef5-49b2-9e81-dfec0e384db5"
+    },
+    {
+      "id": "83cc047c-e40f-4e7e-a8c8-a5431804d953",
+      "name": "Create New Movie In Series",
+      "type": "Macro",
+      "command": true,
+      "macroId": "9b0b99e6-d6bf-4186-aa3b-578ff24b8952"
+    },
+    {
+      "id": "247cbcac-9117-4672-b461-322d7b422d6a",
+      "name": "Create New Journal Entry",
+      "type": "Macro",
+      "command": true,
+      "macroId": "87bf0f1a-a5d5-4bff-bdeb-c2bb1052707f"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add New Anime",
+      "id": "45c6cf48-fc6b-4c6c-ae99-f92585d814af",
+      "commands": [
+        {
+          "name": "Create New Anime File",
+          "type": "NestedChoice",
+          "id": "581ef49f-5d66-4205-b13e-779f12214095",
+          "choice": {
+            "id": "d93c1d5e-a44a-4e3a-9052-93dcb3041921",
+            "name": "Create New Anime File",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Anime.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Watchables/Anime"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Progress bar",
+          "type": "NestedChoice",
+          "id": "97fc9c0c-177d-427e-a928-56799032786e",
+          "choice": {
+            "id": "bb84c76e-0058-417c-b87c-f53155c928e2",
+            "name": "Add Progress bar",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind-js-view\n{episodeCount} as episodeCount\n---\nconst str = \n`\\`\\`\\`meta-bind\\nINPUT[progressBar(maxValue(${context.bound.episodeCount})):progress]\\n\\`\\`\\``;\nreturn engine.markdown.create(str);\n```"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Progress",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "326a5c22-994f-467a-84f5-7032b7e9f297",
+          "choice": {
+            "id": "a6c6cd1d-cc12-49ee-adbc-5607675f7593",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Seasonal Anime",
+      "id": "6a79ac6f-678f-4748-803c-f55ac3a7b6e8",
+      "commands": [
+        {
+          "name": "Add Seasonal Anime",
+          "type": "NestedChoice",
+          "id": "c2954e5b-7904-4bf3-92d6-ab2a92763db2",
+          "choice": {
+            "id": "f5e65e0e-9dd9-4fe8-8605-a7a85a849aea",
+            "name": "Add Seasonal Anime",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Anime.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}} Season {{VALUE:SeasonNumber}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Watchables/Anime/{{VALUE:Title}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Progress Bar",
+          "type": "NestedChoice",
+          "id": "613250c1-8c7e-4d4d-ab5c-fb578d1639c6",
+          "choice": {
+            "id": "6d11dfb1-5cb6-4a45-b804-bdce7e226ae1",
+            "name": "Add Progress Bar",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind-js-view\n{episodeCount} as episodeCount\n---\nconst str = \n`\\`\\`\\`meta-bind\\nINPUT[progressBar(maxValue(${context.bound.episodeCount})):progress]\\n\\`\\`\\``;\nreturn engine.markdown.create(str);\n```"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Progress",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "a216966b-d7dc-487f-bb99-c242ba40330f",
+          "choice": {
+            "id": "9d3726fc-5001-43cd-aaa4-a377fd2b3663",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Manga",
+      "id": "b36cf064-cf45-49a0-b78b-7518d3fd826f",
+      "commands": [
+        {
+          "name": "Create New Manga",
+          "type": "NestedChoice",
+          "id": "7e7b4009-67f8-4521-9c65-50d160c25ab8",
+          "choice": {
+            "id": "85b01365-bd6a-42d3-8a8a-cf401ce4c6fd",
+            "name": "Create New Manga",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Manga.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Readables/Manga"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Progress Bar",
+          "type": "NestedChoice",
+          "id": "cd187cba-8b0e-479d-a260-dc253d87fdcf",
+          "choice": {
+            "id": "fc6ddd30-46d0-47a7-963f-f9104188b240",
+            "name": "Add Progress Bar",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind-js-view\n{volumeCount} as volumeCount\n---\nconst str = \n`\\`\\`\\`meta-bind\\nINPUT[progressBar(maxValue(${context.bound.volumeCount})):progress]\\n\\`\\`\\``;\nreturn engine.markdown.create(str);\n```"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Progress",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "d2fa43e2-1ab8-41e9-a453-478515ea226c",
+          "choice": {
+            "id": "3133cc4e-37f7-48dc-b2a0-c830c1c1aa14",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Light Novel",
+      "id": "774aefed-7266-445d-b1cc-dc55c15b5973",
+      "commands": [
+        {
+          "name": "Create New Light Novel",
+          "type": "NestedChoice",
+          "id": "1862a951-7716-4540-bde7-19af37600b17",
+          "choice": {
+            "id": "33652766-77c3-4c7b-b00f-9f689ccbd987",
+            "name": "Create New Light Novel",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Light Novel.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Readables/Light Novels"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Progress Bar",
+          "type": "NestedChoice",
+          "id": "32c56647-487f-4b5b-8038-a626e73b0ec0",
+          "choice": {
+            "id": "205e73b8-2f5a-486a-9e97-0b7b0a6f40b0",
+            "name": "Add Progress Bar",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind-js-view\n{chapterCount} as chapterCount\n---\nconst str = \n`\\`\\`\\`meta-bind\\nINPUT[progressBar(maxValue(${context.bound.chapterCount})):progress]\\n\\`\\`\\``;\nreturn engine.markdown.create(str);\n```"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Progress",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "8501ecb6-a525-4f7e-996e-dbdeb3ffb05b",
+          "choice": {
+            "id": "9a8bf5fe-db65-4fb9-a58b-94c65fc6a57a",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Drama",
+      "id": "d552b3c7-7188-42d2-b10b-1d99f5abcc68",
+      "commands": [
+        {
+          "name": "Create New Drama",
+          "type": "NestedChoice",
+          "id": "d23316ef-2f06-419a-ab56-5561b60c4a6f",
+          "choice": {
+            "id": "a3e8e00d-9fd9-4d52-9223-ff1439f07a15",
+            "name": "Create New Drama",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Drama.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Watchables/Drama"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Progress Bar",
+          "type": "NestedChoice",
+          "id": "f4dfe289-1984-4dc8-826b-4af1ca490a41",
+          "choice": {
+            "id": "d61f87f0-51c0-4407-b872-6a84a246b6ed",
+            "name": "Add Progress Bar",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind-js-view\n{episodeCount} as episodeCount\n---\nconst str = \n`\\`\\`\\`meta-bind\\nINPUT[progressBar(maxValue(${context.bound.episodeCount})):progress]\\n\\`\\`\\``;\nreturn engine.markdown.create(str);\n```"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Progress",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "77ece87b-c9ee-4bf4-87cb-e0862a31c14d",
+          "choice": {
+            "id": "7adba87c-9e86-434c-b4d2-acea4775faf2",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Seasonal Drama",
+      "id": "85c3ce86-ee6d-48b7-b95c-20ff3e97b74f",
+      "commands": [
+        {
+          "name": "Create New Seasonal Drama",
+          "type": "NestedChoice",
+          "id": "67151f29-622a-4a01-b44f-47a53ec19051",
+          "choice": {
+            "id": "ac374f9e-db0f-4bfb-ba0c-f287271a6fca",
+            "name": "Create New Seasonal Drama",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Drama.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "Season {{VALUE:SeasonNumber}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Watchables/Drama/{{VALUE:Title}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Progress Bar",
+          "type": "NestedChoice",
+          "id": "a152b45a-fbca-4393-a51e-e2d6605ef8d7",
+          "choice": {
+            "id": "9476777b-ddec-440e-9fe3-a55e9e500e0c",
+            "name": "Add Progress Bar",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind-js-view\n{episodeCount} as episodeCount\n---\nconst str = \n`\\`\\`\\`meta-bind\\nINPUT[progressBar(maxValue(${context.bound.episodeCount})):progress]\\n\\`\\`\\``;\nreturn engine.markdown.create(str);\n```"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Progress",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "8bc8e049-0e20-47c3-abd6-5d8f60308dfb",
+          "choice": {
+            "id": "de50c7ec-021a-4d8c-b6ac-da8cbd47c73e",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Movie",
+      "id": "a955d5dc-9ef5-49b2-9e81-dfec0e384db5",
+      "commands": [
+        {
+          "name": "Create New Movie",
+          "type": "NestedChoice",
+          "id": "55bada64-ceef-4c09-b001-3d048e1a53ca",
+          "choice": {
+            "id": "030c45bc-075c-4c02-9696-9da82b84b27c",
+            "name": "Create New Movie",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Movie.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Watchables/Movies"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Add Status Section",
+          "type": "NestedChoice",
+          "id": "4030b73a-3158-41a5-ae37-b271b1e82a71",
+          "choice": {
+            "id": "7ba64d15-e7e4-475f-9168-2c40a2feec94",
+            "name": "Add Status Section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Movie Series",
+      "id": "9b0b99e6-d6bf-4186-aa3b-578ff24b8952",
+      "commands": [
+        {
+          "name": "Create New Movie",
+          "type": "NestedChoice",
+          "id": "0a5e9878-a7bd-4738-842a-3c83656a55d8",
+          "choice": {
+            "id": "dbabbac7-3e28-4deb-9560-f7c15b6c7341",
+            "name": "Create New Movie",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Movie.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Content/Watchables/Movies/{{VALUE:MovieSeries}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "356e3bf9-172d-446e-adb5-5e01055acb64",
+          "choice": {
+            "id": "4c76b84c-f695-4d7f-900b-042e08e07ca6",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "```meta-bind\nINPUT[select(\noption(0, Not Yet Started), \noption(1, In Progress), \noption(2, Abandoned),\noption(3, Finished)\n):status]\n```\\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Status",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add New Journal",
+      "id": "87bf0f1a-a5d5-4bff-bdeb-c2bb1052707f",
+      "commands": [
+        {
+          "name": "getStoicQuote",
+          "type": "UserScript",
+          "id": "95f472bd-5191-4050-89ae-3a079d255043",
+          "path": "js/scripts/getStoicQuote.js",
+          "settings": {}
+        },
+        {
+          "name": "Create New Journal",
+          "type": "NestedChoice",
+          "id": "d31f3582-5fb0-406b-820e-fb372bc7c12a",
+          "choice": {
+            "id": "0fa3b882-d523-43d0-875b-5b6a1961d6ba",
+            "name": "Create New Journal",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/NewJournal.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:DD - dddd}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Journals/{{DATE:yyyy}}/{{DATE:MMMM}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "Templates",
+  "announceUpdates": true,
+  "version": "1.11.5",
+  "disableOnlineFeatures": false,
+  "enableRibbonIcon": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

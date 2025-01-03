@@ -1,0 +1,26 @@
+.mb-button.button-primary > button {
+  color: white;
+  background: #004c9e;
+}
+
+.mb-button.button-secondary > button {
+  color: white;
+  background: #0b009e;
+}
+
+.mb-button.button-tertiary > button {
+  color: white;
+  background: #4f009e;
+}
+
+.mb-button.button-aqua > button {
+  color: white;
+  background: #003b2c;
+}
+
+.mb-button.button-add > button {
+  color: white;
+  background: #0a3600;
+  font-size: 30px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,4 @@
+.max-table-width table {
+  max-width: 100% !important;
+  width: 100% !important;
+}

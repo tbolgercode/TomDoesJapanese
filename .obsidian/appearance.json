@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Dark Moss",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "buttons",
+    "wideViews",
+    "MCL Wide Views",
+    "tablewidth"
+  ],
+  "accentColor": "#500075",
+  "baseFontSize": 20
+}
