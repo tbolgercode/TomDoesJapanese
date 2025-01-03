@@ -171,13 +171,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false,
+      "quickadd:QuickAdd": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "2f992afb5f42926b",
   "lastOpenFiles": [
-    "DLraw.net-044.jpeg",
+    "js/scripts/wkcode.js",
     "TODO.md",
+    "DLraw.net-044.jpeg",
     "Summary.md",
     "Videos.md",
     "Content/Readables/Manga/からかい上手の高木さん.md",
@@ -207,7 +211,6 @@
     "Templates/AddEpisode.md",
     "Content/Watchables/Movies/君の名は.md",
     "Journals/2024/December",
-    "js/scripts/wkcode.js",
     "js/scripts/getStoicQuote.js",
     "js/scripts/dvTasks.js",
     "js/components/index.js",
