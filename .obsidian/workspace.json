@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "Content/Readables/Manga/からかい上手の高木さん.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,10 +196,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summary.md"
+                "file": "Content/Readables/Manga/からかい上手の高木さん.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Summary"
+              "title": "Outline of からかい上手の高木さん"
             }
           },
           {
@@ -234,8 +234,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "29b20adbb8b1a7c5",
+  "active": "cc053eff4973b1e4",
   "lastOpenFiles": [
+    "Summary.md",
     "Study/Wanikani.md",
     "Study/BunPro.md",
     "Journals/2025/January/06 - Monday.md",
@@ -250,7 +251,6 @@
     "TODO.md",
     "js/scripts/wkcode.js",
     "DLraw.net-044.jpeg",
-    "Summary.md",
     "Content/Readables/Manga/イジらないで長瀞さん.md",
     "Resources/Images/DLraw.net-044.jpeg",
     "Resources/Images",
