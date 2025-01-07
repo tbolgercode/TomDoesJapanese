@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "e980c97f83a1b108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Wanikani.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wanikani"
+            }
+          },
+          {
             "id": "29b20adbb8b1a7c5",
             "type": "leaf",
             "state": {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -196,10 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Readables/Manga/からかい上手の高木さん.md"
+                "file": "Study/Wanikani.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of からかい上手の高木さん"
+              "title": "Outline of Wanikani"
             }
           },
           {
@@ -234,13 +248,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "cc053eff4973b1e4",
+  "active": "e980c97f83a1b108",
   "lastOpenFiles": [
+    "Study/BunPro.md",
+    "Journals/2025/January/07 - Tuesday.md",
+    "Content/Readables/Manga/からかい上手の高木さん.md",
     "Summary.md",
     "Study/Wanikani.md",
-    "Study/BunPro.md",
     "Journals/2025/January/06 - Monday.md",
-    "Content/Readables/Manga/からかい上手の高木さん.md",
     "Journals/2025/January/05 - Sunday.md",
     "Journals/2025/January/04 - Saturday.md",
     "Journals/2025/January/03 - Friday.md",
@@ -267,7 +282,6 @@
     "Templates/Drama.md",
     "Templates/NewChapter.md",
     "Templates/Movie.md",
-    "Templates/Light Novel.md",
     "Journals/2024/December",
     "js/scripts/getStoicQuote.js",
     "js/scripts/dvTasks.js",
