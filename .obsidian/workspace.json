@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "からかい上手の高木さん"
             }
+          },
+          {
+            "id": "29b20adbb8b1a7c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Summary"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,10 +196,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content/Readables/Manga/からかい上手の高木さん.md"
+                "file": "Summary.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of からかい上手の高木さん"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -220,10 +234,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "cc053eff4973b1e4",
+  "active": "29b20adbb8b1a7c5",
   "lastOpenFiles": [
-    "Study/BunPro.md",
     "Study/Wanikani.md",
+    "Study/BunPro.md",
+    "Journals/2025/January/06 - Monday.md",
+    "Content/Readables/Manga/からかい上手の高木さん.md",
     "Journals/2025/January/05 - Sunday.md",
     "Journals/2025/January/04 - Saturday.md",
     "Journals/2025/January/03 - Friday.md",
@@ -235,7 +251,6 @@
     "js/scripts/wkcode.js",
     "DLraw.net-044.jpeg",
     "Summary.md",
-    "Content/Readables/Manga/からかい上手の高木さん.md",
     "Content/Readables/Manga/イジらないで長瀞さん.md",
     "Resources/Images/DLraw.net-044.jpeg",
     "Resources/Images",
@@ -253,7 +268,6 @@
     "Templates/NewChapter.md",
     "Templates/Movie.md",
     "Templates/Light Novel.md",
-    "Templates/Manga.md",
     "Journals/2024/December",
     "js/scripts/getStoicQuote.js",
     "js/scripts/dvTasks.js",
