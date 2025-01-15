@@ -206,7 +206,7 @@ tableString = tableString.slice(0, -1);
 dv.span(tableString);
 dv.span("<small>*1 Season of a show is counted as 1 in this chart.</small>");
 dv.span("<br>");
-dv.span("<small>*1 Volume of a manga is counted as 1 in this chart.</small>");
+dv.span("<small>*1 Volume Series of a manga is counted as 1 in this chart.</small>");
 ```
 ---
 ```dataviewjs

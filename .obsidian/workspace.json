@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/January/14 - Tuesday.md",
-                "mode": "source",
+                "file": "Summary.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Tuesday"
+              "title": "Summary"
             }
           }
         ],
@@ -196,10 +196,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2025/January/14 - Tuesday.md"
+                "file": "Summary.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 14 - Tuesday"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -236,10 +236,13 @@
   },
   "active": "a29564e0a9a1b4ed",
   "lastOpenFiles": [
+    "Content/Watchables/Movies/Youtube.md",
+    "Content/Watchables/Anime/からかい上手の高木さん.md",
+    "Summary.md",
+    "Content/Readables/Manga/からかい上手の高木さん.md",
+    "Journals/2025/January/14 - Tuesday.md",
     "Study/BunPro.md",
     "Study/Wanikani.md",
-    "Summary.md",
-    "Journals/2025/January/14 - Tuesday.md",
     "Journals/2025/January/01 - Wednesday.md",
     "Journals/2025/January/13 - Monday.md",
     "Study/Anki.md",
@@ -248,11 +251,9 @@
     "Journals/2025/January/10 - Friday.md",
     "Journals/2025/January/11 - Saturday.md",
     "Journals/2025/January/08 - Wednesday.md",
-    "Content/Watchables/Movies/Youtube.md",
     "Content/Watchables/Movies/君の名は.md",
     "Videos.md",
     "Journals/2025/January/03 - Friday.md",
-    "Content/Readables/Manga/からかい上手の高木さん.md",
     "Journals/2025/January/04 - Saturday.md",
     "Journals/2025/January/07 - Tuesday.md",
     "Journals/2025/January/06 - Monday.md",
@@ -265,7 +266,6 @@
     "Resources/Images/DLraw.net-044.jpeg",
     "Resources/Images",
     "Resources",
-    "Content/Watchables/Anime/からかい上手の高木さん.md",
     "Readme.md",
     "Journals/2025/January",
     "Journals/2024/December",
