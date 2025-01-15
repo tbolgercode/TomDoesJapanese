@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "Study/BunPro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "BunPro"
             }
           }
         ],
@@ -196,10 +196,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summary.md"
+                "file": "Study/BunPro.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Summary"
+              "title": "Outline of BunPro"
             }
           },
           {
@@ -236,12 +236,12 @@
   },
   "active": "a29564e0a9a1b4ed",
   "lastOpenFiles": [
+    "Study/Wanikani.md",
+    "Summary.md",
     "Journals/2025/January/14 - Tuesday.md",
     "Journals/2025/January/01 - Wednesday.md",
     "Journals/2025/January/13 - Monday.md",
-    "Study/Wanikani.md",
     "Study/BunPro.md",
-    "Summary.md",
     "Study/Anki.md",
     "Journals/2025/January/12 - Sunday.md",
     "Journals/2025/January/09 - Thursday.md",
