@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
-                "mode": "preview",
+                "file": "Readme.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "Readme"
             }
           }
         ],
@@ -196,10 +196,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summary.md"
+                "file": "Readme.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Summary"
+              "title": "Outline of Readme"
             }
           },
           {
@@ -236,10 +236,10 @@
   },
   "active": "a29564e0a9a1b4ed",
   "lastOpenFiles": [
-    "Content/Watchables/Movies/Youtube.md",
-    "Content/Watchables/Anime/からかい上手の高木さん.md",
     "Summary.md",
     "Content/Readables/Manga/からかい上手の高木さん.md",
+    "Content/Watchables/Movies/Youtube.md",
+    "Content/Watchables/Anime/からかい上手の高木さん.md",
     "Journals/2025/January/14 - Tuesday.md",
     "Study/BunPro.md",
     "Study/Wanikani.md",
