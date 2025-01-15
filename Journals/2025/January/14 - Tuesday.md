@@ -13,7 +13,6 @@ studyDifficulty: 3
 ### A Brief Summary:
 ---
 Nothing new to report.
-
 ### Study Checklist:
 ---
 - [x] Bunpro ✅ 2025-01-14
