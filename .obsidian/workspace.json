@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Content/Readables/Manga/からかい上手の高木さん.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "からかい上手の高木さん"
+            }
+          },
+          {
+            "id": "745cd45234d31c12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readme"
+              "title": "Summary"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -196,10 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Summary.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Readme"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -234,15 +248,18 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "a29564e0a9a1b4ed",
+  "active": "745cd45234d31c12",
   "lastOpenFiles": [
-    "Summary.md",
+    "Study/Wanikani.md",
+    "Study/BunPro.md",
+    "Journals/2025/January/15 - Wednesday.md",
     "Content/Readables/Manga/からかい上手の高木さん.md",
+    "Content/Readables/Manga/じょしらく.md",
+    "Readme.md",
+    "Summary.md",
     "Content/Watchables/Movies/Youtube.md",
     "Content/Watchables/Anime/からかい上手の高木さん.md",
     "Journals/2025/January/14 - Tuesday.md",
-    "Study/BunPro.md",
-    "Study/Wanikani.md",
     "Journals/2025/January/01 - Wednesday.md",
     "Journals/2025/January/13 - Monday.md",
     "Study/Anki.md",
@@ -259,14 +276,11 @@
     "Journals/2025/January/06 - Monday.md",
     "Journals/2025/January/05 - Sunday.md",
     "Journals/2025/January/02 - Thursday.md",
-    "TODO.md",
     "js/scripts/wkcode.js",
     "DLraw.net-044.jpeg",
-    "Content/Readables/Manga/イジらないで長瀞さん.md",
     "Resources/Images/DLraw.net-044.jpeg",
     "Resources/Images",
     "Resources",
-    "Readme.md",
     "Journals/2025/January",
     "Journals/2024/December",
     "js/scripts/getStoicQuote.js",
