@@ -237,12 +237,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/January/26 - Sunday.md",
-                "mode": "source",
+                "file": "Study/Wanikani.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26 - Sunday"
+              "title": "Wanikani"
             }
           }
         ],
@@ -364,10 +364,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2025/January/26 - Sunday.md"
+                "file": "Study/Wanikani.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 26 - Sunday"
+              "title": "Outline of Wanikani"
             }
           },
           {
@@ -404,15 +404,17 @@
   },
   "active": "6c108e2d061678f2",
   "lastOpenFiles": [
-    "Journals/2025/January/25 - Saturday.md",
+    "Study/BunPro.md",
+    "Study/Anki.md",
+    "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/January/26 - Sunday.md",
+    "Journals/2025/January/25 - Saturday.md",
     "Journals/2025/January/08 - Wednesday.md",
     "Journals/2025/January/06 - Monday.md",
     "Journals/2025/January/05 - Sunday.md",
     "Journals/2025/January/02 - Thursday.md",
     "Journals/2025/January/01 - Wednesday.md",
     "Study/Wanikani.md",
-    "Study/BunPro.md",
     "Summary.md",
     "Journals/2025/January/24 - Friday.md",
     "Journals/2025/January/23 - Thursday.md",
@@ -424,10 +426,8 @@
     "Journals/2025/January/03 - Friday.md",
     "Journals/2025/January/21 - Tuesday.md",
     "Journals/2025/January/20 - Monday.md",
-    "Study/Anki.md",
     "Journals/2025/January/19 - Sunday.md",
     "Journals/2025/January/18 - Saturday.md",
-    "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/January/17 - Friday.md",
     "Content/Readables/Manga/からかい上手の高木さん.md",
     "js/scripts/wkcode.js",
