@@ -251,12 +251,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/January/27 - Monday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "27 - Monday"
+              "title": "Summary"
             }
           }
         ],
@@ -378,10 +378,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2025/January/27 - Monday.md"
+                "file": "Summary.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 27 - Monday"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -418,11 +418,11 @@
   },
   "active": "114176760efca3d4",
   "lastOpenFiles": [
-    "Summary.md",
-    "Journals/2025/January/27 - Monday.md",
     "Study/Wanikani.md",
     "Study/BunPro.md",
     "Study/Anki.md",
+    "Journals/2025/January/27 - Monday.md",
+    "Summary.md",
     "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/January/26 - Sunday.md",
     "Journals/2025/January/25 - Saturday.md",
