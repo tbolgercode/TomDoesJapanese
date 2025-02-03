@@ -3,7 +3,7 @@ studyJournalDate: 2025-01-10
 studyDifficulty: 3
 ---
 
-# Saturday, January 11 2025
+# Friday, January 10 2025
 ---
 # "He who laughs at the human race deserves better of it than he who mourns for it, for the former leaves it some good hopes of improvement, while the latter stupidly weeps over what he has given up all hopes of mending."
 

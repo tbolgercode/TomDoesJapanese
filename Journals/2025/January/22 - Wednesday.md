@@ -3,7 +3,7 @@ studyJournalDate: 2025-01-22
 studyDifficulty: 3
 ---
 
-# Thursday, January 23 2025
+# Wednesday, January 22 2025
 ---
 # "No man is free who is not master of himself."
 

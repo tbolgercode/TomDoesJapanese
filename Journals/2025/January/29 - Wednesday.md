@@ -3,7 +3,7 @@ studyJournalDate: 2025-01-29
 studyDifficulty: 4
 ---
 
-# Thursday, January 30 2025
+# Tuesday, January 29 2025
 ---
 # "Life is full of hostility — some of it overt, some clever and underhanded."
 

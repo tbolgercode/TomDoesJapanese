@@ -3,7 +3,7 @@ studyJournalDate: 2025-01-13
 studyDifficulty: 4
 ---
 
-# Tuesday, January 14 2025
+# Monday, January 14 2025
 ---
 # "Think long term. Execute short term. Experience now."
 
