@@ -321,7 +321,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -420,7 +421,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2025/January/30 - Thursday.md"
+                "file": "Journals/2025/January/30 - Thursday.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of 30 - Thursday"
