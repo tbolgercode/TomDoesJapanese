@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Wanikani.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wanikani"
+              "title": "Summary"
             }
           }
         ],
@@ -225,13 +225,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Wanikani.md",
+                "file": "Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Wanikani"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -268,11 +268,12 @@
   },
   "active": "3d7bdbb1a177b469",
   "lastOpenFiles": [
+    "TODO.md",
+    "Study/Wanikani.md",
     "Study/BunPro.md",
     "Journals/2025/February/10 - Monday.md",
     "Summary.md",
     "Content/Watchables/Movies/Youtube.md",
-    "Study/Wanikani.md",
     "Study/Anki.md",
     "Journals/2025/February/09 - Sunday.md",
     "Journals/2025/February/08 - Saturday.md",
@@ -293,7 +294,6 @@
     "Journals/2025/January/24 - Friday.md",
     "Journals/2025/January/23 - Thursday.md",
     "Journals/2025/January/22 - Wednesday.md",
-    "Journals/2025/January/21 - Tuesday.md",
     "Journals/2025/February",
     "js/scripts/wkcode.js",
     "DLraw.net-044.jpeg",
