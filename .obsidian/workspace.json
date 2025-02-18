@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "18 - Tuesday"
             }
-          },
-          {
-            "id": "a573dd8165b0161d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -195,12 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Journals/2025/February/18 - Tuesday.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 18 - Tuesday"
             }
           },
           {
@@ -232,13 +221,15 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "quickadd:QuickAdd": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "a573dd8165b0161d",
+  "active": "4c25b5688d778054",
   "lastOpenFiles": [
-    "Study/Wanikani.md",
+    "WaniKani, a kanji learning application by Tofugu.md",
     "Journals/2025/February/18 - Tuesday.md",
+    "Study/Wanikani.md",
     "Study/BunPro.md",
     "Journals/2025/February/17 - Monday.md",
     "Journals/2025/February/16 - Sunday.md",
@@ -262,7 +253,6 @@
     "Journals/2025/February/05 - Wednesday.md",
     "Journals/2025/February/02 - Sunday.md",
     "Journals/2025/February/04 - Tuesday.md",
-    "Journals/2025/February/03 - Monday.md",
     "Journals/2025/February",
     "js/scripts/wkcode.js",
     "DLraw.net-044.jpeg",

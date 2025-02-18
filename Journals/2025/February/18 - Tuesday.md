@@ -13,6 +13,7 @@ studyDifficulty: 3
 ### A Brief Summary:
 ---
 Nothing new to report.
+https://wanikani.com
 
 ### Study Checklist:
 ---
