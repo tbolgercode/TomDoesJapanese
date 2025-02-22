@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/February/19 - Wednesday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19 - Wednesday"
+              "title": "Summary"
             }
           }
         ],
@@ -197,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2025/February/19 - Wednesday.md",
+                "file": "Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 19 - Wednesday"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -241,8 +241,8 @@
   },
   "active": "8314b8ee2a2c5875",
   "lastOpenFiles": [
-    "Study/BunPro.md",
     "Journals/2025/February/19 - Wednesday.md",
+    "Study/BunPro.md",
     "Study/Wanikani.md",
     "Journals/2025/February/18 - Tuesday.md",
     "WaniKani, a kanji learning application by Tofugu.md",
