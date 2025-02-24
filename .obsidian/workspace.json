@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/February/23 - Sunday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "23 - Sunday"
+              "title": "Summary"
             }
           }
         ],
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journals/2025/February/23 - Sunday.md",
+                "file": "Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 23 - Sunday"
+              "title": "Outline of Summary"
             }
           },
           {
@@ -283,8 +283,8 @@
   },
   "active": "8703935449dc382b",
   "lastOpenFiles": [
-    "Study/BunPro.md",
     "Journals/2025/February/23 - Sunday.md",
+    "Study/BunPro.md",
     "Study/Wanikani.md",
     "Summary.md",
     "Journals/2025/February/22 - Saturday.md",
