@@ -265,12 +265,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/March/07 - Friday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07 - Friday"
+              "title": "Summary"
             }
           },
           {
@@ -451,8 +451,8 @@
   },
   "active": "ad4e0890a160b33f",
   "lastOpenFiles": [
-    "Study/BunPro.md",
     "Journals/2025/March/07 - Friday.md",
+    "Study/BunPro.md",
     "Study/Wanikani.md",
     "Summary.md",
     "Content/Watchables/Movies/Youtube.md",
