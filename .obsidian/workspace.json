@@ -307,12 +307,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "Content/Watchables/Movies/Youtube.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "Youtube"
             }
           },
           {
@@ -493,13 +493,13 @@
   },
   "active": "c46c702f1df40fd4",
   "lastOpenFiles": [
-    "Study/BunPro.md",
     "Journals/2025/March/10 - Monday.md",
+    "Study/BunPro.md",
+    "Summary.md",
     "Study/Wanikani.md",
     "Content/Watchables/Anime/からかい上手の高木さん.md",
     "Journals/2025/March/09 - Sunday.md",
     "Journals/2025/March/08 - Saturday.md",
-    "Summary.md",
     "Journals/2025/March/07 - Friday.md",
     "Content/Watchables/Movies/Youtube.md",
     "TODO.md",
