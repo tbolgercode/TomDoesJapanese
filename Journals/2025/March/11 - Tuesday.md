@@ -19,7 +19,7 @@ Nothing new to report.
 - [x] Bunpro ✅ 2025-03-11
 - [x] Wanikani ✅ 2025-03-11
 - [x] Anki (if applicable) ✅ 2025-03-11
-- [ ] Immersion (2+ hours)
+- [x] Immersion (2+ hours) ✅ 2025-03-11
 
 #### Quick Links
 ---
