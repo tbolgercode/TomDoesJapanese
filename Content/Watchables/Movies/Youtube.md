@@ -1,6 +1,6 @@
 ---
 genre: 0
-timeSpent: 290
+timeSpent: 300
 type: 5
 ---
 `BUTTON[subtract-fiveMinutes,subtract-halfHour,subtract-hour,add-hour,add-halfHour,add-fiveMinutes]`
