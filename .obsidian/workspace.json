@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/March/16 - Sunday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16 - Sunday"
+              "title": "Summary"
+            }
+          },
+          {
+            "id": "170bbfa937109ff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2025/March/17 - Monday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "17 - Monday"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -225,19 +239,20 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4b86ac0e08a3fcf3",
+  "active": "170bbfa937109ff8",
   "lastOpenFiles": [
     "Study/BunPro.md",
-    "Journals/2025/March/16 - Sunday.md",
+    "Journals/2025/March/17 - Monday.md",
     "Study/Wanikani.md",
+    "Summary.md",
+    "Study/Anki.md",
+    "Journals/2025/March/16 - Sunday.md",
     "Journals/2025/March/14 - Friday.md",
     "Journals/2025/March/15 - Saturday.md",
-    "Summary.md",
     "Journals/2025/March/13 - Thursday.md",
     "Content/Watchables/Anime/からかい上手の高木さん.md",
     "Videos.md",
     "Journals/2025/March/11 - Tuesday.md",
-    "Study/Anki.md",
     "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/March/10 - Monday.md",
     "Journals/2025/March/09 - Sunday.md",
@@ -253,7 +268,6 @@
     "Journals/2025/March/02 - Sunday.md",
     "Journals/2025/March/01 - Saturday.md",
     "Journals/2025/March",
-    "Journals/2025/February/28 - Friday.md",
     "Journals/2025/February",
     "js/scripts/wkcode.js",
     "DLraw.net-044.jpeg",
