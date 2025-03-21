@@ -1,13 +1,13 @@
 ---
-studyJournalDate: 2025-3-20
+studyJournalDate: 2025-03-12
 studyDifficulty: 3
 ---
 
-# Thursday, March 20 2025
+# Wednesday, March 12 2025
 ---
-# "Many will choose the stability of slavery over the uncertainty of freedom."
+# "Comfort makes you weaker. We need some variability, some stressors. Not too much, but just enough."
 
-## *-TheStoicEmperor*
+## *-Nassim Nicholas Taleb*
 
 
 ### A Brief Summary:
