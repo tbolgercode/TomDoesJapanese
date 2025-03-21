@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c33153a48dd443c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2025/March/12 - Wednesday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "12 - Wednesday"
-            }
-          },
-          {
-            "id": "de6c5fec29ff7154",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/BunPro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BunPro"
-            }
-          },
-          {
-            "id": "f836685325251295",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2025/March/15 - Saturday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "15 - Saturday"
-            }
-          },
-          {
-            "id": "1ec840c97e0b4cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2025/March/14 - Friday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "14 - Friday"
-            }
-          },
-          {
             "id": "4b86ac0e08a3fcf3",
             "type": "leaf",
             "state": {
@@ -76,65 +20,8 @@
               "icon": "lucide-file",
               "title": "Summary"
             }
-          },
-          {
-            "id": "170bbfa937109ff8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2025/March/17 - Monday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "17 - Monday"
-            }
-          },
-          {
-            "id": "657008c333d8aac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Summary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Summary"
-            }
-          },
-          {
-            "id": "bb8b758c7c1b2748",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2025/March/19 - Wednesday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "19 - Wednesday"
-            }
-          },
-          {
-            "id": "e7962e183da09d3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journals/2025/March/12 - Wednesday.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "12 - Wednesday"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,13 +182,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4b86ac0e08a3fcf3",
+  "active": "d931a729665d4ee2",
   "lastOpenFiles": [
+    "Journals/2025/March/21 - Friday.md",
     "Study/BunPro.md",
-    "Journals/2025/March/20 - Thursday.md",
     "Study/Wanikani.md",
-    "Journals/2025/March/12 - Wednesday.md",
     "Summary.md",
+    "Journals/2025/March/20 - Thursday.md",
+    "Journals/2025/March/12 - Wednesday.md",
     "Journals/2025/March/19 - Wednesday.md",
     "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/March/18 - Tuesday.md",
@@ -322,7 +210,6 @@
     "Journals/2025/March/06 - Thursday.md",
     "Bounties.md",
     "Readme.md",
-    "Journals/2025/March/05 - Wednesday.md",
     "Journals/2025/March",
     "Journals/2025/February",
     "js/scripts/wkcode.js",

@@ -1015,7 +1015,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.13.0",
+  "version": "1.13.2",
   "disableOnlineFeatures": false,
   "enableRibbonIcon": true,
   "ai": {
