@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/March/25 - Tuesday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "25 - Tuesday"
+              "title": "Summary"
             }
           },
           {
@@ -241,8 +241,8 @@
   },
   "active": "ca2b26a144ff0fad",
   "lastOpenFiles": [
-    "Study/BunPro.md",
     "Journals/2025/March/25 - Tuesday.md",
+    "Study/BunPro.md",
     "Study/Wanikani.md",
     "Summary.md",
     "Journals/2025/March/24 - Monday.md",
