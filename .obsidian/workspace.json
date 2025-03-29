@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/BunPro.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BunPro"
+              "title": "Summary"
             }
           },
           {
@@ -269,11 +269,11 @@
   },
   "active": "f9812790c325ed43",
   "lastOpenFiles": [
+    "Study/BunPro.md",
     "Journals/2025/March/27 - Thursday.md",
     "Study/Wanikani.md",
     "Journals/2025/March/26 - Wednesday.md",
     "Summary.md",
-    "Study/BunPro.md",
     "Journals/2025/March/25 - Tuesday.md",
     "Journals/2025/March/24 - Monday.md",
     "Journals/2025/March/23 - Sunday.md",
