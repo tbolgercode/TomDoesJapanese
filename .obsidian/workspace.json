@@ -106,6 +106,34 @@
             }
           },
           {
+            "id": "ef83c167f6c3892c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2025/April/31 - Tuesday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "31 - Tuesday"
+            }
+          },
+          {
+            "id": "eb5242b997a8d0a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2025/April/01 - Tuesday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 - Tuesday"
+            }
+          },
+          {
             "id": "b04119220f5ecb81",
             "type": "leaf",
             "state": {
@@ -148,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -309,14 +337,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5e00ac7477634fd3",
+  "active": "eb5242b997a8d0a4",
   "lastOpenFiles": [
+    "Study/BunPro.md",
+    "Journals/2025/April/01 - Tuesday.md",
+    "Study/Wanikani.md",
+    "Journals/2025/April/31 - Tuesday.md",
+    "Summary.md",
+    "Journals/2025/April",
     "Journals/2025/March/30 - Sunday.md",
     "Content/Watchables/Movies/Youtube.md",
-    "Study/BunPro.md",
-    "Study/Wanikani.md",
     "Journals/2025/March/29 - Saturday.md",
-    "Summary.md",
     "Journals/2025/March/28 - Friday.md",
     "Journals/2025/March/27 - Thursday.md",
     "Journals/2025/March/26 - Wednesday.md",
@@ -335,8 +366,6 @@
     "Journals/2025/March/14 - Friday.md",
     "Journals/2025/March/15 - Saturday.md",
     "Journals/2025/March/13 - Thursday.md",
-    "Content/Watchables/Anime/からかい上手の高木さん.md",
-    "Videos.md",
     "Journals/2025/March",
     "Journals/2025/February",
     "js/scripts/wkcode.js",
@@ -347,7 +376,6 @@
     "Journals/2025/January",
     "Journals/2024/December",
     "js/scripts/getStoicQuote.js",
-    "js/scripts/dvTasks.js",
-    "js/components/index.js"
+    "js/scripts/dvTasks.js"
   ]
 }
