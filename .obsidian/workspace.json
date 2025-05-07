@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
-                "mode": "source",
+                "file": "Journals/2025/May/06 - Tuesday.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "06 - Tuesday"
             }
           },
           {
@@ -409,11 +409,11 @@
   },
   "active": "90922a28cc95863b",
   "lastOpenFiles": [
-    "Journals/2025/May/06 - Wednesday.md",
+    "Journals/2025/May/05 - Monday.md",
+    "Journals/2025/May/06 - Tuesday.md",
+    "Summary.md",
     "Study/Wanikani.md",
     "Study/BunPro.md",
-    "Summary.md",
-    "Journals/2025/May/05 - Monday.md",
     "Journals/2025/May",
     "Journals/2025/April/04 - Friday.md",
     "Journals/2025/April/03 - Thursday.md",
