@@ -204,6 +204,20 @@
             }
           },
           {
+            "id": "d684a90dbb75b607",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/BunPro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BunPro"
+            }
+          },
+          {
             "id": "b04119220f5ecb81",
             "type": "leaf",
             "state": {
@@ -246,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -407,12 +421,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90922a28cc95863b",
+  "active": "d684a90dbb75b607",
   "lastOpenFiles": [
-    "Journals/2025/May/05 - Monday.md",
-    "Journals/2025/May/06 - Tuesday.md",
-    "Summary.md",
+    "Journals/2025/May/07 - Wednesday.md",
     "Study/Wanikani.md",
+    "Journals/2025/May/06 - Tuesday.md",
+    "Journals/2025/May/05 - Monday.md",
+    "Summary.md",
     "Study/BunPro.md",
     "Journals/2025/May",
     "Journals/2025/April/04 - Friday.md",
@@ -436,7 +451,6 @@
     "Journals/2025/March/21 - Friday.md",
     "Journals/2025/March/20 - Thursday.md",
     "Journals/2025/March/12 - Wednesday.md",
-    "Journals/2025/March/19 - Wednesday.md",
     "Journals/2025/March",
     "Journals/2025/February",
     "js/scripts/wkcode.js",
