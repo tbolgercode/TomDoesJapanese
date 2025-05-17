@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "Study/BunPro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "BunPro"
             }
           }
         ],
@@ -200,11 +200,11 @@
   },
   "active": "8537055b0f9c4b83",
   "lastOpenFiles": [
+    "Summary.md",
     "Journals/2025/May/16 - Friday.md",
     "Study/BunPro.md",
     "Study/Wanikani.md",
     "Journals/2025/May/15 - Thursday.md",
-    "Summary.md",
     "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/May/12 - Monday.md",
     "Journals/2025/May/14 - Wednesday.md",
