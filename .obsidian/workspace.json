@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "17 - Saturday"
             }
+          },
+          {
+            "id": "ad4b31d827d4f977",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journals/2025/May/18 - Sunday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "18 - Sunday"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,11 +226,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f68f6a7e2506be6c",
+  "active": "ad4b31d827d4f977",
   "lastOpenFiles": [
     "Study/BunPro.md",
-    "Journals/2025/May/17 - Saturday.md",
+    "Journals/2025/May/18 - Sunday.md",
     "Study/Wanikani.md",
+    "Journals/2025/May/17 - Saturday.md",
     "Journals/2025/May/16 - Friday.md",
     "Summary.md",
     "Journals/2025/May/15 - Thursday.md",
@@ -240,7 +255,6 @@
     "Readme.md",
     "Bounties.md",
     "Journals/2025/April/02 - Wednesday.md",
-    "Journals/2025/March/31 - Tuesday.md",
     "Journals/2025/April",
     "Journals/2025/March",
     "Journals/2025/February",
