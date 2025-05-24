@@ -1,6 +1,6 @@
 ---
 studyJournalDate: 2025-5-23
-studyDifficulty: 3
+studyDifficulty: 4
 ---
 
 # Friday, May 23 2025
@@ -16,9 +16,9 @@ Nothing new to report.
 
 ### Study Checklist:
 ---
-- [ ] Bunpro
-- [ ] Wanikani
-- [ ] Anki (if applicable)
+- [x] Bunpro ✅ 2025-05-23
+- [x] Wanikani ✅ 2025-05-23
+- [x] Anki (if applicable) ✅ 2025-05-23
 - [ ] Immersion (2+ hours)
 
 #### Quick Links
