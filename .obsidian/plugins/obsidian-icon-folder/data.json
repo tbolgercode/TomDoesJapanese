@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiQuestionMarkGlyph",
       "LiFileImage",
       "LiHammer",
       "LiCalendar",
-      "LiDrama",
-      "LiGraduationCap"
+      "LiDrama"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -94,5 +94,9 @@
   "Resources/Images": {
     "iconName": "LiFileImage",
     "iconColor": "#3f0061"
+  },
+  "Content/TBD": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#71fefc"
   }
 }
