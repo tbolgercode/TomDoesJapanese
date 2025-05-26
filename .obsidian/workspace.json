@@ -153,8 +153,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/TBD/TBD.md",
-                "mode": "source",
+                "file": "TBD/TBD.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 326.5110321044922
   },
   "right": {
     "id": "c2cb9343c5ab5c7b",
@@ -325,18 +325,20 @@
   },
   "active": "6f1dcbfc4a7eaffe",
   "lastOpenFiles": [
-    "Journals/2025/May/26 - Monday.md",
-    "Content/TBD/TBD.md",
-    "Content/TBD",
     "Summary.md",
-    "Journals/2025/May/25 - Sunday.md",
-    "Study/BunPro.md",
+    "TBD/TBD.md",
+    "Content/Watchables/Movies/Youtube.md",
     "Study/Wanikani.md",
+    "Study/Anki.md",
+    "Study/BunPro.md",
+    "Journals/2025/May/26 - Monday.md",
+    "Readme.md",
+    "TBD",
+    "Journals/2025/May/25 - Sunday.md",
     "Journals/2025/May/24 - Saturday.md",
     "Journals/2025/May/23 - Friday.md",
     "Journals/2025/May/22 - Thursday.md",
     "Journals/2025/May/21 - Wednesday.md",
-    "Content/Watchables/Movies/Youtube.md",
     "Journals/2025/May/20 - Tuesday.md",
     "Journals/2025/May/19 - Monday.md",
     "Journals/2025/May/18 - Sunday.md",
@@ -350,8 +352,6 @@
     "Journals/2025/April/05 - Saturday.md",
     "Journals/2025/May/10 - Saturday.md",
     "Journals/2025/May/09 - Friday.md",
-    "Journals/2025/May/07 - Wednesday.md",
-    "Journals/2025/May/06 - Tuesday.md",
     "Journals/2025/May",
     "Journals/2025/April",
     "Journals/2025/March",
