@@ -26,3 +26,17 @@ yugioh?
 ## [VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta](https://myanimelist.net/anime/54284/VTuber_Nandaga_Haishin_Kiri_Wasuretara_Densetsu_ni_Natteta)
 ## [Bye Bye, Earth](https://myanimelist.net/anime/53626/Bye_Bye_Earth)
 ## [Kono Sekai wa Fukanzen Sugiru](https://myanimelist.net/anime/54835/Kono_Sekai_wa_Fukanzen_Sugiru)
+[Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life](https://myanimelist.net/anime/56923/Lv2_kara_Cheat_datta_Motoyuusha_Kouho_no_Mattari_Isekai_Life)
+
+## [Bartender: Kami no Glass](https://myanimelist.net/anime/53407/Bartender__Kami_no_Glass)
+
+## [One Room, Hiatari Futsuu, Tenshi-tsuki.](https://myanimelist.net/anime/56838/One_Room_Hiatari_Futsuu_Tenshi-tsuki)
+## [Dungeon Meshi](https://myanimelist.net/anime/52701/Dungeon_Meshi)
+## [Dosanko Gal wa Namara Menkoi](https://myanimelist.net/anime/53421/Dosanko_Gal_wa_Namara_Menkoi)
+## [Meitou "Isekai no Yu" Kaitakuki: Around 40 Onsen Mania no Tensei Sak](https://myanimelist.net/anime/57315/Meitou_Isekai_no_Yu_Kaitakuki__Around_40_Onsen_Mania_no_Tensei_Saki_wa_Nonbiri_Onsen_Tengoku_deshita)
+
+JULY
+## [Sono Bisque Doll wa Koi wo Suru Season 2](https://myanimelist.net/anime/53065/Sono_Bisque_Doll_wa_Koi_wo_Suru_Season_2)
+## [Tate no Yuusha no Nariagari Season 4](https://myanimelist.net/anime/57907/Tate_no_Yuusha_no_Nariagari_Season_4)
+## [Egao no Taenai Shokuba desu.](https://myanimelist.net/anime/57859/Egao_no_Taenai_Shokuba_desu)
+## 
