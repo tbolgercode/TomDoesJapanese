@@ -209,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TBD/TBD.md",
+                "file": "TBD/Manga.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBD"
+              "title": "Manga"
             }
           }
         ],
@@ -382,6 +382,7 @@
   "active": "2627696618d99f21",
   "lastOpenFiles": [
     "TBD/TBD.md",
+    "TBD/Manga.md",
     "Summary.md",
     "Journals/2025/May/30 - Friday.md",
     "Study/BunPro.md",
@@ -407,7 +408,6 @@
     "Journals/2025/May/15 - Thursday.md",
     "Journals/2025/May/12 - Monday.md",
     "Journals/2025/May/14 - Wednesday.md",
-    "Journals/2025/May/13 - Tuesday.md",
     "Journals/2025/May",
     "Journals/2025/April",
     "Journals/2025/March",
