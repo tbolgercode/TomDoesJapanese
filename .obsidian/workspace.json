@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journals/2025/June/01 - Sunday.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Sunday"
+              "title": "Summary"
             }
           }
         ]
@@ -184,10 +184,10 @@
   },
   "active": "1fccd3584bbd465e",
   "lastOpenFiles": [
-    "Journals/2025/May/31 - Saturday.md",
     "Journals/2025/June/01 - Sunday.md",
     "Study/BunPro.md",
     "Study/Wanikani.md",
+    "Journals/2025/May/31 - Saturday.md",
     "TBD/Manga.md",
     "Journals/2025/June",
     "TBD/TBD.md",
