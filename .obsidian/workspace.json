@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "TBD/TBD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "TBD"
             }
           }
         ],
@@ -241,11 +241,11 @@
   },
   "active": "c3b7330c6aeac738",
   "lastOpenFiles": [
+    "Summary.md",
     "Study/BunPro.md",
     "Journals/2025/June/05 - Thursday.md",
     "Study/Wanikani.md",
     "Journals/2025/June/04 - Wednesday.md",
-    "Summary.md",
     "Journals/2025/June/03 - Tuesday.md",
     "TBD/TBD.md",
     "TBD/Manga.md",
