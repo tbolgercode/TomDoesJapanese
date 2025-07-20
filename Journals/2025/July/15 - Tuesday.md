@@ -16,7 +16,7 @@ Nothing new to report.
 
 ### Study Checklist:
 ---
-- [ ] Bunpro
+- [x] Bunpro ✅ 2025-07-16
 - [x] Wanikani ✅ 2025-07-15
 - [x] Anki (if applicable) ✅ 2025-07-15
 - [ ] Immersion (2+ hours)
