@@ -237,12 +237,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "TBD/TBD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary"
+              "title": "TBD"
             }
           }
         ],
@@ -409,6 +409,7 @@
   },
   "active": "66de84f02526c242",
   "lastOpenFiles": [
+    "Summary.md",
     "Study/BunPro.md",
     "Journals/2025/August/01 - Friday.md",
     "Study/Wanikani.md",
@@ -418,7 +419,6 @@
     "Journals/2025/July/26 - Saturday.md",
     "Journals/2025/July/20 - Sunday.md",
     "Journals/2025/July/15 - Tuesday.md",
-    "Summary.md",
     "Journals/2025/July/11 - Friday.md",
     "Journals/2025/July/09 - Wednesday.md",
     "Journals/2025/July/04 - Friday.md",

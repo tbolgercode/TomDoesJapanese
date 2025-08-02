@@ -7,6 +7,8 @@ Hotel Inhumans
 Loner life in another world
 Horimiya
 Anime: The Brilliant Healer’s New Life In The Shadows
+Kimi ni Todoke
+Call of the Night
 ## [Katainaka no Ossan, Kensei ni Naru](https://myanimelist.net/anime/59452/Katainaka_no_Ossan_Kensei_ni_Naru)
 
 ## [Ore dake Level Up na Ken Season 2: Arise from the Shadow](https://myanimelist.net/anime/58567/Ore_dake_Level_Up_na_Ken_Season_2__Arise_from_the_Shadow)
