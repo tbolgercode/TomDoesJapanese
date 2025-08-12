@@ -13,13 +13,13 @@ studyDifficulty: 3
 ### A Brief Summary:
 ---
 Taking a short break for the next week before I start immersion proper. I will be starting wanikani again, however at a slower rate than before.
-今週にかけて、新しい言葉のべんきょうを休止しようと思います。その時までもう学んだ言葉を勉強して続けている。そのあと、イマージョンをはじめようとおもいます。
+今週にかけて、新しい言葉のべんきょうを休止しようと思います。その時までもう学んだ言葉を勉強して続けている。そのあと、イマージョンをはじめようとおもいます。頑張ります！
 
 ### Study Checklist:
 ---
-- [ ] Bunpro
-- [ ] Wanikani
-- [ ] Anki (if applicable)
+- [x] Bunpro ✅ 2025-08-11
+- [x] Wanikani ✅ 2025-08-11
+- [x] Anki (if applicable) ✅ 2025-08-11
 - [ ] Immersion (2+ hours)
 
 #### Quick Links
