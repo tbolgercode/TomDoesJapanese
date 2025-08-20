@@ -1,11 +1,11 @@
 ---
-difficulty: 
-rating: 
+difficulty:
+rating:
 status: 1
-progress: 1
+progress: 3
 genre: 4
 episodeCount: 8
-timeSpent: 120
+timeSpent: 240
 type: 0
 ---
 # Status 
@@ -50,32 +50,30 @@ actions:
 Episode 2
 ```meta-bind-button
 style: default
-label: Mark Done
-id: "mark-done"
-class: button-aqua
+label: Undo?
+id: "undo-done"
 actions:
   - type: updateMetadata
     bindTarget: progress
     evaluate: true
-    value: "x + 1"
+    value: "x - 1"
   - type: replaceSelf
-    replacement: "[[UndoDone]]"
+    replacement: "[[MarkDone]]"
     templater: true
 ```
 
 Episode 3
 ```meta-bind-button
 style: default
-label: Mark Done
-id: "mark-done"
-class: button-aqua
+label: Undo?
+id: "undo-done"
 actions:
   - type: updateMetadata
     bindTarget: progress
     evaluate: true
-    value: "x + 1"
+    value: "x - 1"
   - type: replaceSelf
-    replacement: "[[UndoDone]]"
+    replacement: "[[MarkDone]]"
     templater: true
 ```
 
