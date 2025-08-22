@@ -2,7 +2,7 @@
 difficulty:
 rating:
 status: 1
-progress: 3
+progress: 4
 genre: 4
 episodeCount: 8
 timeSpent: 240
@@ -80,16 +80,15 @@ actions:
 Episode 4
 ```meta-bind-button
 style: default
-label: Mark Done
-id: "mark-done"
-class: button-aqua
+label: Undo?
+id: "undo-done"
 actions:
   - type: updateMetadata
     bindTarget: progress
     evaluate: true
-    value: "x + 1"
+    value: "x - 1"
   - type: replaceSelf
-    replacement: "[[UndoDone]]"
+    replacement: "[[MarkDone]]"
     templater: true
 ```
 
