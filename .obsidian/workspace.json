@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Suppose  a Kid from the Last Dungeon Boonies Moved to a Starter Town"
             }
+          },
+          {
+            "id": "c37893401c770d82",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9c006dcfbf2547d",
+  "active": "c37893401c770d82",
   "lastOpenFiles": [
     "Content/Watchables/Anime/Suppose  a Kid from the Last Dungeon Boonies Moved to a Starter Town.md",
     "Content/Watchables/Anime/ningen fushin.md",
