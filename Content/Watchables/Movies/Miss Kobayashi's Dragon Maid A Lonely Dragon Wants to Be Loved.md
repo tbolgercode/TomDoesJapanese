@@ -1,0 +1,100 @@
+---
+difficulty:
+rating:
+status: 1
+progress: 0
+genre: 2
+timeSpent: 60
+type: 2
+---
+# Status 
+```meta-bind
+INPUT[select(
+option(0, Not Yet Started), 
+option(1, In Progress), 
+option(2, Abandoned),
+option(3, Finished)
+):status]
+```
+# Time Tracker
+`BUTTON[subtract-fiveMinutes,subtract-halfHour,subtract-hour,add-hour,add-halfHour,add-fiveMinutes]`
+
+# Details
+---
+```meta-bind-button
+style: default
+label: +1 Hour
+id: "add-hour"
+class: button-tertiary
+hidden: true
+actions:
+  - type: updateMetadata
+    bindTarget: timeSpent
+    evaluate: true
+    value: "x + 60"
+``` 
+
+```meta-bind-button
+style: default
+label: -1 Hour
+id: "subtract-hour"
+hidden: true
+class: button-tertiary
+actions:
+  - type: updateMetadata
+    bindTarget: timeSpent
+    evaluate: true
+    value: "x - 60"
+```
+```meta-bind-button
+style: default
+label: -30 Min
+id: "subtract-halfHour"
+hidden: true
+class: button-secondary
+actions:
+  - type: updateMetadata
+    bindTarget: timeSpent
+    evaluate: true
+    value: "x - 30"
+```
+```meta-bind-button
+style: default
+label: +30 Min
+id: "add-halfHour"
+hidden: true
+class: button-secondary
+actions:
+  - type: updateMetadata
+    bindTarget: timeSpent
+    evaluate: true
+    value: "x + 30"
+``` 
+
+```meta-bind-button
+style: default
+label: +5 Min
+id: "add-fiveMinutes"
+hidden: true
+class: button-primary
+actions:
+  - type: updateMetadata
+    bindTarget: timeSpent
+    evaluate: true
+    value: "x + 5"
+``` 
+
+```meta-bind-button
+style: default
+label: -5 Min
+id: "subtract-fiveMinutes"
+hidden: true
+class: button-primary
+actions:
+  - type: updateMetadata
+    bindTarget: timeSpent
+    evaluate: true
+    value: "x - 5"
+```
+
+

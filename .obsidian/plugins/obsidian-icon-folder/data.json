@@ -98,5 +98,9 @@
   "TBD": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#71fefc"
+  },
+  "Journals/2026": {
+    "iconName": "LiCalendar",
+    "iconColor": "#25899d"
   }
 }
