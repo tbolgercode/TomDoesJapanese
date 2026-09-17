@@ -358,18 +358,6 @@
             }
           },
           {
-            "id": "c42cdceb47dbbf96",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
-            }
-          },
-          {
             "id": "8ab02fbf1e7e719c",
             "type": "leaf",
             "state": {
@@ -548,7 +536,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c42cdceb47dbbf96",
+  "active": "8ab02fbf1e7e719c",
   "lastOpenFiles": [
     "Content/Watchables/Anime/Yomi no tsugai.md",
     "Content/Watchables/Anime/スーパーの裏でヤニ吸うふたり.md",
